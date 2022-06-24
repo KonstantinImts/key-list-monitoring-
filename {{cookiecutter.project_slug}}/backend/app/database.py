@@ -6,7 +6,6 @@ from .settings import settings
 
 engine = create_engine(
     settings.database_url,
-    # connect_args={'check_same_thread': False},  # на каждый запрос новая сессия (без переподключения)
 )
 
 

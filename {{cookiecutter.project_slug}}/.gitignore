@@ -129,8 +129,8 @@ dmypy.json
 .pyre/
 
 # Database
-docker/postgresql
-postgresql.env
+*pg-data
+*pg-data/*
 
 # VSCode
 .vscode
