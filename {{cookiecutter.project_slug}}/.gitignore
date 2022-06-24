@@ -129,8 +129,8 @@ dmypy.json
 .pyre/
 
 # Database
-*pg-data
-*pg-data/*
+database
+{{cookiecutter.project_slug}}/database
 
 # VSCode
 .vscode
