@@ -57,4 +57,4 @@ The input variables, with their default values (some auto generated) are:
 * `project_slug`: The development friendly name of the project. By default, based on the project name
 
 <br/>
-<p align="center"><a https://github.com/custproject/custx#"><img src="https://github.com/custproject/.github/blob/main/images/buttons/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
+<p align="center"><a href="https://github.com/custproject/custx#"><img src="https://github.com/custproject/.github/blob/main/images/buttons/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
