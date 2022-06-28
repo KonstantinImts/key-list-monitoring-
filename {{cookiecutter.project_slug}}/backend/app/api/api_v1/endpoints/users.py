@@ -7,10 +7,7 @@ from ....models.auth import User
 from ....services.users import UserService
 
 
-router = APIRouter(
-    prefix='/users',
-    tags=['users'],
-)
+router = APIRouter()
 
 
 @router.get('/', response_model=List[User])
