@@ -14,14 +14,6 @@ from ..models.auth import Token, User, UserCreate
 from ..settings import settings
 
 
-oath2_scheme = OAuth2PasswordBearer(tokenUrl='/auth/sign-in')  # обявляем схему с формой авторизации
-
-
-def get_current_user(token: str = Depends(oath2_scheme)) -> User:
-    '''Get the current user.'''
-    return AuthService.validate_token(token)
-
-
 class AuthService:
     @classmethod
     def verify_password(cls, plain_password: str, hashed_password: str) -> bool:

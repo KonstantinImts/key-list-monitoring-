@@ -2,13 +2,11 @@ from fastapi import APIRouter, Depends
 from fastapi.security import OAuth2PasswordRequestForm
 
 from ....models.auth import Token, User, UserCreate
-from ....services.auth import AuthService, get_current_user
+from ....services.auth import AuthService
+from ...deps import get_current_user
 
 
-router = APIRouter(
-    prefix='/auth',
-    tags=['auth'],
-)
+router = APIRouter()
 
 
 @router.post('/sign-up', response_model=Token)

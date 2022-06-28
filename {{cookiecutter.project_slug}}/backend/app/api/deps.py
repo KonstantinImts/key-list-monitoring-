@@ -6,7 +6,7 @@ from ..services.auth import AuthService
 
 
 oath2_scheme = OAuth2PasswordBearer(
-    tokenUrl='/auth/sign-in',
+    tokenUrl='/api/v1/auth/sign-in',
 )
 
 
